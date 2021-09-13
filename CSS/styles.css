@@ -1,0 +1,168 @@
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #eaf6f6;
+}
+
+body {
+  color: #40514E;
+  margin: 0;
+  /*can use margin-top: 0px;
+      margin-left: 0px;
+      margin-bottom: 0px;
+      margin-right: 0px;; as well--> without specifying all four sides seperatly*/
+  text-align: center;
+  /*onw way to align text center*/
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  /*Another way to align center for block elemetns. Here we need to give margin auto values to make it center after giving the percentage vlaue*/
+  /*width: 10%;
+    margin: 0 auto 0 auto;*/
+  margin-top: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  /*100% == 16px == 1em-----------
+                              if we need 32px then have to give 200% */
+  /*em and % is dynamically sized. So when the default font size increase, the font will correspondely increase.*/
+  /*if parent contain em or % then the child inherit it and increase from that point. rem use to stop this effect: ;*/
+  color: #66BFBF;
+  /*line-height: 2;*/
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color:#66BFBF;
+}
+p{
+    line-height: 2;
+}
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.my-description{
+  width: 30%;
+  margin: 25px auto 50px auto;
+}
+
+.under {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+margin: 100px 0;
+}
+.skill-details{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.Art-image{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Graphic-image{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+/* .art-description{
+  clear: left;*/ /*left margine is clear and do not wrap arrond the image*/
+/*} */
+/* .graphic-description{
+  clear: right;
+} */
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+  color: #11999e;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 250px;
+}
+
+.btn {
+   background: #0EC7CD;
+   background-image: -webkit-linear-gradient(top, #0EC7CD, #0E9CA1);
+   background-image: -moz-linear-gradient(top, #0EC7CD, #0E9CA1);
+   background-image: -ms-linear-gradient(top, #0EC7CD, #0E9CA1);
+   background-image: -o-linear-gradient(top, #0EC7CD, #0E9CA1);
+   background-image: -webkit-gradient(to bottom, #0EC7CD, #0E9CA1);
+   -webkit-border-radius: 13px;
+   -moz-border-radius: 13px;
+   border-radius: 13px;
+   height: 5px;
+   line-height: 5px;
+   color: #FFFFFF;
+   font-family: Arial;
+   width: 171px;
+   font-size: 20px;
+   font-weight: 500;
+   padding: 26px;
+   -webkit-box-shadow: -2px 1px 12px 0 #9CADAA;
+   -moz-box-shadow: -2px 1px 12px 0 #9CADAA;
+   box-shadow: -2px 1px 12px 0 #9CADAA;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 13px;
+   -moz-border-radius: 13px;
+   border-radius: 13px;
+   text-decoration: none;
+}
